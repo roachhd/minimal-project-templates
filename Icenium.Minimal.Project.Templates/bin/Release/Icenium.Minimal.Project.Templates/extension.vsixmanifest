@@ -1,0 +1,19 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="Icenium.Minimal.Project.Templates..7f09b29c-b9c8-4806-96b0-c918c81fbde4" Version="1.0" Language="en-US" Publisher="Telerik" />
+    <DisplayName>Icenium.Minimal.Project.Templates</DisplayName>
+    <Description xml:space="preserve">Icenium Project Templates without the sample app boilerplate.</Description>
+    <License>license.txt</License>
+    <Icon>Package.ico</Icon>
+    <PreviewImage>PackagePreview.bmp</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" />
+  </Assets>
+</PackageManifest>
